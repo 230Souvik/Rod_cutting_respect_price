@@ -4,7 +4,7 @@ import java.util.*;
 import java.lang.*;
 
 
-public class Rod_cuttong {
+public class Rod_cutting {
  public int cutRod(int price[], int n)
     {
         if (n <= 0)
@@ -21,7 +21,7 @@ public class Rod_cuttong {
     }
     
     public static void main(String[] args) {
-        Rod_cuttong r=new Rod_cuttong(); 
+        Rod_cutting r=new Rod_cutting(); 
         int a[] = new int[] { 1, 3, 5, 7,8, 10, 11,13 };
         int size = a.length;
         System.out.println("Maximum Obtainable Value is " + r.cutRod(a, size));
